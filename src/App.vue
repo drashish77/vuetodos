@@ -1,7 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/todo">Todo</router-link>
   </nav>
   <router-view/>
 </template>
@@ -21,6 +22,7 @@ nav {
 
 nav a {
   font-weight: bold;
+  margin: 20px;
   color: #2c3e50;
 }
 
